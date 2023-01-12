@@ -11,7 +11,6 @@ public class ChessPosition {
 		if(column<'a' || column>'h' || row<1 ||row>8) {
 			throw new ChessException("Error instantiating ChessPosition. "
 					+ "Valid values are froma a1 to h8.");
-		
 		}	
 		this.column=column;
 		this.row=row;
